@@ -1,0 +1,85 @@
+body{
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#food_items{
+    /* position: fixed; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    /* border: 1px solid black; */
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-top: 1%;
+}
+@media screen and (max-width:1270px){
+    #food_items{
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+    }
+}
+@media screen and (max-width:1050px){
+    #food_items{
+    grid-template-columns:1fr 1fr 1fr;
+
+    }
+}
+@media screen and (max-width:770px){
+    #food_items{
+    grid-template-columns:1fr 1fr;
+
+    }
+}
+@media screen and (max-width:500px){
+    #food_items{
+    grid-template-columns:0.8fr;
+    /* margin-left: 25px; */
+   /* margin-right: 100px; */
+    }
+}
+#food_items::-webkit-scrollbar {
+    display: none;
+}
+.name_div{
+    height: auto;
+}
+.booknow{
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+}
+.food_order{
+    display: flex;
+    justify-content: space-between;
+}
+.order_items{
+    width: 220px;
+    height: 50px;
+    border: 1px solid white;
+    opacity: 0.9;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    /* margin-left: 1%; */
+    padding: 0.5%;
+    /* display: none; */
+    background-color:cornflowerblue ;
+    /* background-color:#e3f2fd; */
+    /* color: blue; */
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+.confirm_order{
+    font-size: larger;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    /* opacity: 0.9; */
+    background-color:cornflowerblue ;
+    border: none;
+}

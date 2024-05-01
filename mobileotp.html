@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODHUB</title>
+    <link id="uperwalalogo" rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACFsRkoc1hFEWSP-WqpSc95HaB3tWYx6cdOJMlzYg2Llfzjdf7spHLocJPHPldbDo794&usqp=CAU">
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="./mobileotp.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="main_login" style="margin-top: 5%;">
+        <h2>Login With number</h2>
+        <form action="">
+        <label class="label" for="">Mobile Number</label><br>
+        <input type="number" class="inputbox" name="" id="mobile_number" placeholder="Enter Mobile Number">
+        <div id="otp"><label class="label" for="">Enter OTP</label><br>
+        <input class="inputbox" id="otp_num" type="password" placeholder="Enter OTP"></div><br>
+        <button class="form_button" id="sendotp_button" onclick="hide_show(event)">Click for send one time OTP</button>
+        <button class="form_button" id="login_button" onclick="loginotp(event)">Login</button>
+    </form>
+        <p>if you are new user than click on <span><a href="./signup.html">SignUp</a></span></p>
+    </div>
+    <script src="./mobileotp.js"></script>
+</body>
+</html>

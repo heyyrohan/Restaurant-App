@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODHUB</title>
+    <link id="uperwalalogo" rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACFsRkoc1hFEWSP-WqpSc95HaB3tWYx6cdOJMlzYg2Llfzjdf7spHLocJPHPldbDo794&usqp=CAU">
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="main_login">
+        <h2>SignUp</h2>
+        <form action="">
+        <label class="label" for="">Name</label><br>
+        <input class="inputbox" id="name" type="text" placeholder="Enter Your name" required><br>
+        <label class="label" for="">Email</label><br>
+        <input class="inputbox" type="email" id="email" placeholder="Enter Email_Address" required><br>
+        <label class="label" for="">Password</label><br>
+        <input class="inputbox" type="password" id="password" placeholder="Enter Password" required><br>
+        <label class="label" for="">Confirm Password</label><br>
+        <input class="inputbox" type="password" id="confirm_pass" placeholder="Confirm Password" required><br>
+        <button class="form_button" id="mobileno_button" onclick="mobileno()">continue with mobile number</button>
+        <button class="form_button" id="signup_button" onclick="signup(event)">SignUp</button>
+    </form>
+        <p>if you are already signup than click on <span><a href="./login.html">Login</a></span></p>
+    </div>
+    <script src="./signup.js"></script>
+</body>
+</html>

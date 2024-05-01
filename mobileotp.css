@@ -1,0 +1,11 @@
+#otp{
+    display: none;
+}
+#login_button{
+    display: none;
+}
+@media screen and (max-width:420px) {
+    h2{
+        font-size: medium;
+    }
+}
